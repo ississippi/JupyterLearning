@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/console-sandbox/.vs
+/console-sandbox/console-sandbox/bin/Debug/net9.0
+/console-sandbox/console-sandbox/obj
+/AsynchronousProgramming/.vs/AsynchronousProgramming
+/AsynchronousProgramming/AsynchronousProgramming/bin/Debug/net9.0
+/AsynchronousProgramming/AsynchronousProgramming/obj
