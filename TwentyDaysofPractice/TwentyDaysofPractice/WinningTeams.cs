@@ -60,6 +60,8 @@ namespace TwentyDaysofPractice
         // A win == 3 points
         // A draw == 1 point
         // If a tie, it is brokwn by the greatest difference of scored - conceded.
+        // Time: O(n Log n)
+        // Space: O(n)
         public int[] NewSolution(int[] wins, int[] draws, int[] scored, int[] conceded)
         {
             var comparer = Comparer<int>.Create((a, b) => b.CompareTo(a));
@@ -107,6 +109,12 @@ namespace TwentyDaysofPractice
                 return result;
         }
 
+        // Identify first and second place teams by index
+        // A win == 3 points
+        // A draw == 1 point
+        // If a tie, it is brokwn by the greatest difference of scored - conceded.
+        // Time: O(n)
+        // Space: O(1)
         public int[] OptimizedSolution(int[] wins, int[] draws, int[] scored, int[] conceded)
         {
             int n = wins.Length;
